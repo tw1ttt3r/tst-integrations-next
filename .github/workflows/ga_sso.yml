@@ -9,6 +9,7 @@ jobs:
         with:
           node-version: '14'
       - run: yarn install
+      - run: yarn lint
       - run: yarn run test
       - uses: amondnet/vercel-action@v20
         with:
