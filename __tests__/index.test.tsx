@@ -10,7 +10,7 @@ describe('Home', () => {
 
     const component = render(<Home />);
 
-    component.getByText('Componente Funcionando V2')
+    component.getByText('Componente Funcionando V3')
     
   })
 });
