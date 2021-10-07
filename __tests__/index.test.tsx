@@ -10,7 +10,7 @@ describe('Home', () => {
 
     const component = render(<Home />);
 
-    component.getByText('SSO works!')
+    component.getByText('Componente Funcionando')
     
   })
 });
